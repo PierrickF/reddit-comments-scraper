@@ -2,9 +2,9 @@ import praw     # To use the reddit API.
 import time     # To use sleep().
 
 # This is a read-only Reddit instance.
-reddit = praw.Reddit(client_id="ml9nlUyBYrhExw",                            # Do not share this information.
-                     client_secret="_wV2Qfvoip4AxMEiNi9GB3rG5Bc",           # Do not share this information.
-                     user_agent="python:msc_dissertation_scrapper:v1.0")    # Do not share this information.
+reddit = praw.Reddit(client_id="TOP_SECRET",                            # Do not share this information.
+                     client_secret="TOP_SECRET",           # Do not share this information.
+                     user_agent="TOP_SECRET")    # Do not share this information.
 
 # Information regarding network requests limits, in a dictionary.
 # The keys are: number of requests remaining, time when the counter will reset, and number of requests made.
