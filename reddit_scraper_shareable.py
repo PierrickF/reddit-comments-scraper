@@ -44,3 +44,5 @@ with open("reddit_data.txt", "a") as f:     # Parameter "a" means "append", to r
 
 # Printing the number of comments gathered.
 print("Scrapped {0} comments.".format(len(reddit_data)))
+
+# this is a git test
